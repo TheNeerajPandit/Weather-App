@@ -1,0 +1,17 @@
+[
+  {
+    "LocalObservationDateTime": "2022-07-07T09:09:00+05:45",
+    "EpochTime": 1657164240,
+    "WeatherText": "Partly sunny",
+    "WeatherIcon": 3,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": { "Value": 27.2, "Unit": "C", "UnitType": 17 },
+      "Imperial": { "Value": 81.0, "Unit": "F", "UnitType": 18 }
+    },
+    "MobileLink": "http://www.accuweather.com/en/np/kathmandu/241809/current-weather/241809?lang=en-us",
+    "Link": "http://www.accuweather.com/en/np/kathmandu/241809/current-weather/241809?lang=en-us"
+  }
+]

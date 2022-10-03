@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="frame">
+            <div class="wrapper-top">
+                <div class="location">
+                    <form>
+                        <input type="text" name="location" placeholder="Name of City">
+                    </form>
+                </div>
+
+                <div class="weather-right">
+                    <span>20&deg;C</span>
+                </div>
+            </div>
+            <div class="wrapper-bottom">
+                <div class="icon">
+                    <img src="./includes/images/icons/1.svg" alt="icon">
+                </div>
+                <div class="weather-left">
+                    <p class="status">Day or Night</p>
+                </div>
+
+                <div class="cityWeather">
+                    <svg style="height: 20px ;" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <span>City Name</span>
+                    <p>Weather Condition</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+<script src="./script/weather.js"></script>
+<script src="./script/script.js"></script>
+
+</html>

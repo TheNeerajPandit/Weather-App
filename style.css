@@ -1,0 +1,70 @@
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(242deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-size: 16px;
+    color: white;
+}
+form{
+    text-align: center;
+}
+.frame{
+    background-image: url(./includes/images/night.jpg);
+    background-size:cover;
+    max-width: 400px;
+    height: 640px;
+    margin: 0px auto;
+    border-radius: 40px;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+}
+
+
+.weather-left{
+    font-size: 18px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.weather-right{
+    text-align: right;
+    font-size: 50px;
+}
+
+input{
+    height: 25px;
+    width: 190px;
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+
+
+.cityWeather{
+    text-align: center;
+    font-size: 25px;
+    line-height: 0rem;
+}
+
+.wrapper-top{
+    padding: 20px;
+    height: 380px;    
+}
+.wrapper-bottom{
+    padding: 20px;
+    background-color: rgba(148, 115, 255, 0.5);
+    height: 180px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.icon img{
+    position: relative;
+    top: -60px;
+    left: 140px;
+    height: 80px;
+    margin-bottom: -90px;
+    border-radius: 50%;
+    background-color: rgb(131, 64, 255, 0.8);
+    color: white;
+
+}
